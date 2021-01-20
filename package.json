@@ -1,0 +1,19 @@
+{
+  "name": "tech-task2",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "npx babel src --out-dir dist; node dist/index.js",
+    "test": "npx jest"
+  },
+  "author": "Andrei Klimenok",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
